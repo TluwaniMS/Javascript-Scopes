@@ -34,3 +34,15 @@ console.log(`The name declared in the function scope is ${name}`);
 
 This refers to functions that are declared inside curly braces `{}` (a block).
 Variables declared in these blocks can not be accessed/used outside of the blocks.
+
+```
+function sayMyName() {
+  {
+    const name = "Thoka";
+  }
+  console.log(`The name given to me in the block scope is ${name}`);
+}
+
+sayMyName();
+/// This will return an error because name is not defined in the global function scope.
+```
