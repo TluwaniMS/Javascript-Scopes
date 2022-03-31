@@ -4,6 +4,14 @@ There are 3 types of scopes in Javascript:
 * The Global Scope:
 
 This refers to variables declared outside of a function, these variables can be accessed from anywhere within the file.
+
+```
+const name = "Thoka";
+
+const sayMyName = () => console.log(`The name given to me globally is ${name}`);
+
+sayMyName();
+```
 * The Function Scope:
 
 This refers to variables that are declared inside/within a function; these variables can only be accessed within the function.
