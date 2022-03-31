@@ -1,4 +1,4 @@
-# Guide-Of-Javascript-Scopes
+# Javascript Scopes
 
 There are 3 types of scopes in Javascript:
 * The Global Scope:
