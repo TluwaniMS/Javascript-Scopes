@@ -13,6 +13,9 @@ function sayMyName() {
 }
 
 sayMyName();
+
+will print:
+/// The name given to me globally is Thoka
 ```
 * The Function Scope:
 
