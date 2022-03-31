@@ -20,6 +20,16 @@ will print:
 * The Function Scope:
 
 This refers to variables that are declared inside/within a function; these variables can only be accessed within the function.
+
+```
+function sayMyName() {
+  const name = "Thoka";
+}
+
+console.log(`The name declared in the function scope is ${name}`);
+/// This will return an error because name is not defined globally.
+```
+
 * The Block Scope:
 
 This refers to functions that are declared inside curly braces `{}` (a block).
