@@ -8,7 +8,9 @@ This refers to variables declared outside of a function, these variables can be 
 ```
 const name = "Thoka";
 
-const sayMyName = () => console.log(`The name given to me globally is ${name}`);
+function sayMyName() {
+  console.log(`The name given to me globally is ${name}`);
+}
 
 sayMyName();
 ```
